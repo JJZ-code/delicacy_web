@@ -1,0 +1,250 @@
+.a_b{
+    border-bottom: 2px solid #c70202;
+}
+.h2Titel{
+    height: 76px;
+    font: normal 700 24px "微软雅黑";
+    text-align: center;
+    line-height: 76px;
+    position:relative;
+
+}
+.more{
+    position:absolute;
+    top: 0;
+    right: 0;
+    color: #666;
+    font-size: 12px;
+}
+   
+.p1{
+    font: normal 700 18px "微软雅黑";
+    height: 36px;
+    line-height: 36px;
+    padding-left: 10px;
+}
+.p2{
+    font-family: "微软雅黑";
+    padding-left: 10px;
+}
+.bgred{
+    background-color: #c70202;
+}
+.fwrite{
+    color: #fff !important;
+}
+/* 首页导航B */
+
+.nav{
+    height: 77px;
+    background-color:#fff;
+}
+.nav .nav_c{
+    height:77px;
+}
+.nav .nav_c li{
+    float: left;
+    height: 77px;
+    line-height: 77px;
+    margin-right: 25px;
+}
+.nav .nav_c a{
+    font: normal normal 18px "微软雅黑";
+    color: #666;
+
+}
+
+/* 首页导航E */
+/* banner B */
+
+.banner {
+    position: relative;
+    
+}
+.banner ul{
+    width: 1600px;
+    margin: 0 auto;
+}
+.banner ul li{
+    float: left;
+    width: 400px;
+    position: relative;
+}
+.banner ul li img{
+    vertical-align: middle;
+}
+.banner ul li .des{
+    height: 70px;
+    width: 400px;
+    background-color: #fff;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.banner .arrow a{
+    display: inline-block;
+    width: 145px;
+    height: 77px;
+    position: absolute;
+    top: 200px;
+    background-image: url(../images/arrow.png);
+    opacity:0.5;
+    text-align: center;
+    line-height: 77px;
+    color: #fff;
+}
+.banner .arrow .a_left{
+    left:180px;
+}
+.banner .arrow .a_right{
+    right:180px;
+    background-position:  0 -117px;
+    opacity: 0.6;
+    
+}
+/* banner E */
+
+/* 首页搜索B  */
+.search{
+    height: 100px;
+    background-color: #3f3a32;
+    overflow: hidden;
+}
+.search .s_center{
+    width: 728px;
+    height: 77px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+.search .s_center .txt{
+    width: 555px;
+    height: 77px;
+    outline: none;
+    font: normal normal 18px "微软雅黑";
+    padding-left: 35px;
+}
+.search .s_center .btn{
+    height: 77px;
+    width: 125px;
+    border: none;
+    outline: none;
+    background-color: #c70202;
+    font: normal normal 18px "微软雅黑";
+    color: #fff;
+}
+
+/* 首页搜的E  */
+/* 菜单B  */
+.menu{
+    position: relative;
+}
+.menu .img{
+    width: 1000px;
+}
+.menu  .img li{
+    width: 330px;
+    float: left;
+    
+}
+.menu  .img img{
+   vertical-align: middle;
+}
+.menu .img .word{
+    width: 330px;
+    height: 57px;
+    background-color: #fff;
+}
+.menu .arrow a{
+    display: inline-block;
+    width: 23px;
+    height: 77px;
+    position: absolute;
+    top: 200px;
+    background-image: url(../images/menu_arrow.png);
+    opacity:0.5;
+    text-align: center;
+    line-height: 77px;
+    color: #fff;
+}
+.menu .arrow .m_left{
+    left:-50px;
+}
+.menu .arrow .m_right{
+    right:-50px;
+    background-position:  0 -115px;
+    opacity: 0.6;
+    
+}
+/* 菜单E  */
+
+/* 最新食材B */
+.food .f_nav{
+    width: 990px;
+    background-color: #fff;
+}
+.food .f_nav li{
+    float: left;
+    width: 103px;
+    height: 42px;
+    font: normal 700 22px "微软雅黑";
+    text-align: center;
+}
+.food .f_nav li a{
+    color: #666;
+    height: 42px;
+    line-height: 42px;
+    
+}
+.food .f_img ul{
+    width: 1000px;
+}
+
+
+.food .f_img li{
+    width: 165px;
+    height: 165px;
+    float: left;
+    text-align: center;
+    line-height: 165px;
+    position: relative;
+}
+.food .f_img li img {
+    vertical-align: middle;
+}
+.food .f_img li span{
+    position: absolute;
+    width: 165px;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    background-color: #fff;
+    opacity: 0.3;
+    font: normal 700 18px/60px "微软雅黑";
+    color: #3f3a32;
+    
+}
+
+
+/* 最新食材E */
+
+/* 最新食谱B */
+.newMenu .img{
+    width: 1000px;
+}
+.newMenu  .img li{
+    width: 250px;
+    float: left;
+    
+}
+.newMenu  .img img{
+   vertical-align: middle;
+}
+.newMenu .img .word{
+    width: 250px;
+    height: 57px;
+    background-color: #fff;
+}
+
+/* 最新食谱E */

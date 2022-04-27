@@ -1,0 +1,40 @@
+/* 存放css初始化代码 ，可以借鉴别的网站，*/
+html,body,ul,li,p,h1,h2,h3,h4,h5,h6,form,img {
+    margin:0;padding:0
+}
+img {
+    border:0
+}
+ul {
+    list-style: none;
+}
+input {
+    padding-top:0;
+    padding-bottom:0;
+    border: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font: normal normal 12px "宋体";
+    color: #4c4c4c;
+    background-color: #fae8c8;
+}
+.fr {
+    float: right;
+}
+.fl {
+    float: left;
+}
+.clearfix:after {
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility:hidden;
+    clear:both;
+}
+.clearfix {
+    zoom: 1;
+}
